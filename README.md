@@ -1,3 +1,28 @@
+# PFX Scrapling
+
+نسخة PFX من [Scrapling](https://github.com/D4Vinci/Scrapling)، إطار Python لاستخراج بيانات الويب والزحف وأتمتة المتصفح.
+
+تحتفظ هذه النسخة بوظائف المشروع الأصلي واسمه البرمجي `scrapling`، مع إمكانية تطويرها وتحديثها يدوياً من المصدر.
+
+## تثبيت نسخة PFX
+
+يتطلب المشروع Python 3.10 أو أحدث. بعد استنساخ هذا المستودع، ثبّت النسخة المحلية مع جميع الميزات:
+
+```bash
+git clone https://github.com/pfxamd/pfx-scrapling.git
+cd pfx-scrapling
+python -m pip install '.[all]'
+scrapling install
+```
+
+## تحديث النسخة يدوياً
+
+من صفحة المستودع على GitHub، اختر **Sync fork** عندما تريد جلب تحديثات المشروع الأصلي. راجع التغييرات وأي تعارض مع تعديلات PFX قبل الدمج.
+
+المشروع الأصلي من تطوير Karim Shoair ومساهميه، وهو متاح وفق [ترخيص BSD 3-Clause](LICENSE). الوثائق الأصلية والشرح التفصيلي أدناه.
+
+---
+
 <!-- mcp-name: io.github.D4Vinci/Scrapling -->
 
 <h1 align="center">
